@@ -1,0 +1,18 @@
+body {
+  color: #ba8e5d;
+  letter-spacing: 1px; }
+
+a {
+  color: #0097a2; }
+
+p {
+  color: #494949; }
+
+.color_element {
+  color: #0097a2; }
+
+.color_bg {
+  background-color: #0097a2; }
+
+.color_border {
+  border-color: #0097a2; }
