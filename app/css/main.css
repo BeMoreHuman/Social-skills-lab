@@ -17,3 +17,154 @@ body textarea:required:valid {
 
 .hidden {
   display: none; }
+
+section,
+.main_head {
+  position: relative; }
+
+.main_head {
+  min-height: 620px;
+  background-color: #d7d6d6; }
+
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 999; }
+
+.loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute; }
+
+.header_bg {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-color: #fff;
+  height: 100%; }
+
+.header_menu_bg {
+  background-color: #ba8e5d;
+  height: 68px;
+  padding-top: 20px; }
+
+.menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.menu_link {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  font-size: 16px;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease; }
+  .menu_link:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000; }
+
+.logo_wrap {
+  width: 385px;
+  height: 163px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.logo {
+  height: 100%; }
+
+.header_title {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 905px; }
+
+.title_desc {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: normal; }
+
+.main_title {
+  font-size: 96px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 30px;
+  position: relative; }
+  .main_title:before {
+    content: "";
+    display: inline-block;
+    background-image: url("/app/img/gaps.png");
+    background-size: contain;
+    width: 75px;
+    height: 54px;
+    position: absolute;
+    top: 0;
+    left: -84px; }
+
+.for {
+  text-transform: none;
+  font-size: 48px;
+  margin-left: -30px; }
+
+.date_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 30px; }
+
+.when {
+  font-size: 50px;
+  color: #494949;
+  font-weight: bold; }
+  .when_second {
+    margin-left: 80px; }
+  .when_third {
+    margin-left: 160px; }
+
+.btn_wrap {
+  margin-top: 100px; }
+
+.btn_reg {
+  background-color: #0097a2;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease; }
+  .btn_reg:hover {
+    background-color: #007f89; }
